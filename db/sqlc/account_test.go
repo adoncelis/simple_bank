@@ -23,6 +23,7 @@ func createRandomAccount(t *testing.T) Account {
 	require.NotZero(t, account.CreatedAt)
 
 	return account
+
 }
 
 func TestCreateAccount(t *testing.T) {
